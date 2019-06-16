@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>if else</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+
+			body
+			{
+
+			}
+			
+			.jj
+			{
+				display: inline-block;
+				padding: 100px;
+				background-color: orange
+
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="jj" style="margin-left: 35%;">
+		
+		<input type="text" onclick="re()" id="j" placeholder="if&else:eg"><br>
+		<button id="k" style="margin-left: 60px;" onclick="jero()">hello</button>
+
+		</div>
+		<p id="w" style="text-align: center;">What's ur name</p>
+		
+	
+
+		<script type="text/javascript">
+			function re()
+			{
+				document.getElementById("j").value="";
+			}
+
+
+
+			function jero()
+			{
+				var j=document.getElementById('j').value;
+				
+
+				if (j=="jerom") 
+				{
+
+					document.getElementById('w').innerHTML="How r you jerom";
+					
+				}
+					else if(j=="fine")
+					{
+						document.getElementById('w').innerHTML="Good(:tell some thing about you";	
+					}	
+					else if(j=="iam young")
+					{
+						document.getElementById('w').innerHTML="But your looking link a jocker";
+					}	
+					else if(j=="really")
+					{
+						document.getElementById('w').innerHTML="Yes your R seen 2 be a jocker";
+					}
+					else if(j=="ok"){
+						document.getElementById('w').innerHTML="Can i call you as a jocker";
+					}
+					else if(j=="why not")
+					{
+						document.getElementById('w').innerHTML="You can call me as jocker";
+					}
+					else
+					{
+						document.getElementById('w').innerHTML="jerom";
+					}
+					
+								}
+
+				
+			
+			
+	</script>
+
+	</body>
+</html>
